@@ -1,0 +1,7 @@
+projects:
+    service-1:
+        schemaPath: service-1/schema.graphql
+        extensions:
+            prepare-binding:
+                output: service1.js
+                generator: binding-js

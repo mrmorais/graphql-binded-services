@@ -1,0 +1,15 @@
+type Query {
+    feed: [Post!]!
+    working: String
+}
+
+type Post {
+    id: ID!
+    title: String!
+    owner: User
+}
+
+type User {
+    id: ID!
+    name: String!
+}
